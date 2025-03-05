@@ -23,7 +23,7 @@ selectElement.addEventListener("change", async (event) => {
 
   try {
     const response = await fetch(
-      "https://api.politicsandwar.com/graphql?api_key=90c184776edcc340a2f7",
+      "https://api.politicsandwar.com/graphql?api_key=eeb180a81322bd",
       {
         method: "POST",
         headers: new Headers({ "Content-Type": "application/json" }),
